@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: 
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+Google Scholar_username: Ruizhi Cao
+github_username: rzcao
+minimal_mistakes_skin: dust
 search: true
 
 # Build settings
@@ -34,7 +34,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
+  - _talks
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -65,33 +65,33 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=ymAkx6YAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/rzcao"
+    # - label: "Instagram"
+    #   icon: "fab fa-google-scholar"
+    #   url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=ymAkx6YAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/rzcao"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 defaults:
-  # _posts
+  # _talks
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
@@ -107,9 +107,9 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
+publication_archive:
   type: liquid
-  path: /categories/
+  path: /publications/
 tag_archive:
   type: liquid
   path: /tags/
