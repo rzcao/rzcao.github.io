@@ -96,7 +96,7 @@ footer:
 defaults:
   # _talks
   - scope:
-      path: "_talks"
+      path: ""
       type: posts
     values:
       layout: single
