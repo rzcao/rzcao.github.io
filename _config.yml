@@ -66,11 +66,14 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://rzcao.github.io"
     - label: "Google Scholar"
-      icon: "fab google-scholar"
+      image: "/assets/icons/Google_Scholar_logo.svg"
       url: "https://scholar.google.com/citations?user=ymAkx6YAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rzcao"
+    - label: "Email"
+      icon: "fab fa-fw fa-envolope"
+      url: "mailto:ruizhi@berkeley.edu"
     # - label: "Instagram"
     #   icon: "fab fa-google-scholar"
     #   url: "https://instagram.com/"
@@ -78,11 +81,14 @@ author:
 footer:
   links:
     - label: "Google Scholar"
-      icon: "fab google-scholar"
+      image: "/assets/icons/Google_Scholar_logo.svg"
       url: "https://scholar.google.com/citations?user=ymAkx6YAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rzcao"
+    - label: "Email"
+      icon: "fab fa-fw fa-envolope"
+      url: "mailto:ruizhi@berkeley.edu"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
@@ -91,7 +97,7 @@ defaults:
   # _talks
   - scope:
       path: "_talks"
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
