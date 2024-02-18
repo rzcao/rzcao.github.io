@@ -34,7 +34,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _talks
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -86,7 +86,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rzcao"
-    - label: "Email"
+    - label: "ruizhi@berkeley.edu"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:ruizhi@berkeley.edu"
     # - label: "Instagram"
