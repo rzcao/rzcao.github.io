@@ -1,5 +1,5 @@
 ---
-title: "talks by Year"
+title: "Talks by Year"
 permalink: /talks/
 layout: posts
 author_profile: true
