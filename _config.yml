@@ -66,7 +66,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://rzcao.github.io"
     - label: "Google Scholar"
-      icon: "fab fa-google-scholar"
+      icon: "fab google-scholar"
       url: "https://scholar.google.com/citations?user=ymAkx6YAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -78,7 +78,7 @@ author:
 footer:
   links:
     - label: "Google Scholar"
-      icon: "fab fa-google-scholar"
+      icon: "fab google-scholar"
       url: "https://scholar.google.com/citations?user=ymAkx6YAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -90,7 +90,7 @@ footer:
 defaults:
   # _talks
   - scope:
-      path: ""
+      path: "_talks"
       type: pages
     values:
       layout: single
